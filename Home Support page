@@ -1,53 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tank Install Calculator - Support</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            color: #333;
-        }
-        h1 { color: #007AFF; }
-        h2 { color: #555; margin-top: 30px; }
-        .contact { background: #f5f5f5; padding: 15px; border-radius: 8px; }
-        .faq { margin: 20px 0; }
-        .question { font-weight: bold; margin-top: 15px; }
-    </style>
-</head>
-<body>
-    <h1>Tank Install Calculator</h1>
-    <h2>Support</h2>
-    
-    <div class="contact">
-        <p><strong>Need help?</strong> Contact us at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-    </div>
+# Tank Install Calculator — Support
 
-    <div class="faq">
-        <h3>Frequently Asked Questions</h3>
-        
-        <p class="question">Q: How do I calculate gravel for my project?</p>
-        <p>A: Enter your excavation dimensions, add your tank sizes, adjust the density slider, and tap Calculate.</p>
-        
-        <p class="question">Q: Can I add multiple tanks?</p>
-        <p>A: Yes! Tap "Add Tank Size" to add as many as needed. Swipe left to remove tanks.</p>
-        
-        <p class="question">Q: Does this work offline?</p>
-        <p>A: Yes, the app works completely offline. No internet connection required.</p>
-        
-        <p class="question">Q: How accurate are the calculations?</p>
-        <p>A: We use industry-standard conversion factors for precise estimates.</p>
-        
-        <p class="question">Q: Can I save my calculations?</p>
-        <p>A: Use the Save & Share menu to copy results, share via text/email, or take screenshots.</p>
-    </div>
+Thanks for using Tank Install Calculator, the gravel estimating tool for underground fuel tank installations.
 
-    <hr>
-    <p><a href="privacy.html">Privacy Policy</a> | © 2026 Tank Install Calculator</p>
-</body>
-</html>
+## Contact
+
+For questions, bug reports, or feature requests, email:
+
+**beaver779@gmail.com**
+
+We aim to respond within 2–3 business days.
+
+## Frequently Asked Questions
+
+### How is the gravel quantity calculated?
+The app takes your excavation floor dimensions (length × width × depth), adjusts the total volume for the protective system you select (vertical/shored, sloped, or benched walls), subtracts the volume of the tanks you enter, and converts the remaining volume to tons using the gravel density you set.
+
+### What do the protective system options mean?
+These follow OSHA 1926 Subpart P excavation classifications:
+- **Vertical / Shored** — walls are supported and cut straight down; the hole stays at the entered dimensions.
+- **Sloped** — walls are cut back at the maximum allowable slope for your soil type (Type A ¾:1, Type B 1:1, Type C 1½:1), widening the opening and increasing gravel volume.
+- **Benched** — walls are stepped, with an adjustable bench height. Note: OSHA does not permit benching in Type C soil.
+
+### What waste factor should I use?
+Typical values are 5–10% for pea gravel and 10–15% for compacted crushed rock. Use the higher end for wet conditions or soft subgrades. The Recommended Order figure includes this factor.
+
+### Does the app need an internet connection?
+No. All calculations run entirely on your device and the app works fully offline.
+
+### Does the app collect my data?
+No. See our [Privacy Policy](PRIVACY_POLICY.md) — the app collects no data of any kind.
+
+### How do I remove a tank from the calculation?
+Swipe left on the tank row in the Fuel Tanks section.
+
+## Disclaimer
+
+Tank Install Calculator provides material estimates for planning purposes. Always verify quantities, soil classifications, and excavation safety requirements with a qualified engineer and your local regulations before ordering material or beginning work.
